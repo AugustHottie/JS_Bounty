@@ -25,3 +25,13 @@
     margin-top: 20px;
     text-align: center;
   }
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex > * {
+  flex: 1;
+}
