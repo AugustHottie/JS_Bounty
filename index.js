@@ -49,15 +49,15 @@ finally {
 document.getElementById('result').textContent = `Result: ${result.toFixed(2)}`;
 });
 
-// Define the Shape classes and their methods here (Circle, Square, etc.).
-// Define the Shape class with a name property
+// Shape classes and their methods here (Circle, Square, etc.).
+// Shape class with a name property
 class Shape {
     constructor(name) {
         this.name = name;
     }
 }
 
-// Define the Circle class, extending Shape
+// Circle class, extending Shape
 class Circle extends Shape {
     constructor(radius) {
         super('Circle');
@@ -75,7 +75,7 @@ class Circle extends Shape {
     }
 }
 
-// Define the Square class, extending Shape
+// Square class, extending Shape
 class Square extends Shape {
     constructor(side) {
         super('Square');
@@ -93,7 +93,7 @@ class Square extends Shape {
     }
 }
 
-// Define the Triangle class, extending Shape
+// Triangle class, extending Shape
 class Triangle extends Shape {
     constructor(base, height) {
         super('Triangle');
@@ -112,7 +112,7 @@ class Triangle extends Shape {
     }
 }
 
-// Define the Rectangle class, extending Shape
+// Rectangle class, extending Shape
 class Rectangle extends Shape {
     constructor(width, height) {
         super('Rectangle');
